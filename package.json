@@ -1,0 +1,22 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/app.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakash19090/fem_easybank_landing_page.git"
+  },
+  "author": "Akash Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakash19090/fem_easybank_landing_page/issues"
+  },
+  "homepage": "https://github.com/aakash19090/fem_easybank_landing_page#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

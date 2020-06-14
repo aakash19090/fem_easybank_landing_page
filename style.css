@@ -876,6 +876,16 @@ hr {
       box-shadow: 0 0 350px 280px #2d314d; }
       #homepage .xs_header.show_nav .xs_nav {
         opacity: 1; }
+      #homepage .xs_header.show_nav .menu_toggle_icon .toggle_icon {
+        animation-name: rotateClose;
+        animation-duration: 0.3s;
+        animation-timing-function: linear; }
+
+@keyframes rotateClose {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
   #homepage .hero_section {
     position: relative;
     margin-top: 80px;

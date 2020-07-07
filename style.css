@@ -1208,3 +1208,42 @@ hr {
       @media screen and (min-width: 768px) and (max-width: 1024px) {
         #homepage .site_footer .btn_wrap .copyright_txt {
           font-size: 10px; } }
+
+#error_page {
+  text-align: center; }
+  #error_page .title {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 22px;
+    margin-bottom: 10px; }
+    @media (max-width: 767px) {
+      #error_page .title {
+        font-size: 20px; } }
+  #error_page .error_img {
+    position: relative; }
+    #error_page .error_img .take_back_btn {
+      position: absolute;
+      bottom: 34px;
+      background-color: #ff595d;
+      color: #fff;
+      font-size: 20px;
+      padding: 40px;
+      font-weight: 600;
+      padding: 30px 100px;
+      left: 50%;
+      -moz-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); }
+      @media (max-width: 767px) {
+        #error_page .error_img .take_back_btn {
+          bottom: unset;
+          top: 100%;
+          font-size: 15px;
+          padding: 20px 30px;
+          width: 50%; } }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        #error_page .error_img .take_back_btn {
+          top: 80%;
+          bottom: unset; } }
